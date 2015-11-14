@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "babel-setup-runtime-asyncawait",
+  "version": "1.0.0",
+  "description": "Example Babel project using arrow functions.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejameskyle/babel-setup-arrow-functions.git"
+  },
+  "keywords": [
+    "babel",
+    "setup",
+    "arrow",
+    "functions",
+    "es2015",
+    "es6"
+  ],
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thejameskyle/babel-setup-arrow-functions/issues"
+  },
+  "homepage": "https://github.com/thejameskyle/babel-setup-arrow-functions#readme",
+  "devDependencies": {
+    "babel-cli": "^6.0.14",
+    "babel-plugin-transform-async-to-generator": "^6.1.18",
+    "babel-plugin-transform-regenerator": "^6.1.18",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-runtime": "^6.1.18"
+  }
+}
